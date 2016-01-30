@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>HTML and CSS Code Review</title>
@@ -9,36 +10,55 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/bootstrap-theme.min.css" rel="stylesheet">
-</head>
-<nav class="navbar navbar-default">
-  <div class="container-fluid">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-    </div>
 
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="Index">About<span class="sr-only">(current)</span></a></li>
-        <li><a href="index.html">Home</a></li>
-      </ul>
-  </div>
-  </div><!-- /.container-fluid -->
-</nav>
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <ul class="nav navbar-nav">
+          <li class="inactive"><a href="index.html">Home<span class="sr-only"></span></a></li>
+          <li class="active"><a href="about.html">About<span class="sr-only">(current)</span></a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+</head>
+
 <body>
   <div class="jumbotron">
     <div class="container text-center">
-  <h1>Brian Churilla vs. The Internet</h1>
-    <p>Veteran cartoonist dips his toe into web programming for fun and profit!</p>
-  <p><a class="btn btn-primary btn-lg" href="about.html" role="button">Learn more about this lummox</a></p>
-</div>
-</div>
+      <h1>Brian Churilla vs. The Internet</h1>
+      <p>Veteran cartoonist dips his toe into web programming for fun and profit!</p>
+  </div>
+  </div>
 
+  <div class="container">
+    <div class="row-fluid">
+      <div class="col-md-12">
+
+        <h4>About</h4>
+        <p>I'm a comic book writer/artist currently drawing GODZILLA: Oblivion for IDW Publishing.
+        I'm best known for my work on <strong>BIG TROUBLE in LITTLE CHINA</strong> and <strong>HELLBREAK</strong> (Boom! Studios and Oni Press, respectively).
+        Also, I'm currently studying web development at Epicodus.</p>
+
+        <p>My psychedelic, red-scare alternate-history yarn, <em>“The Secret History of D.B. Cooper"</em> (Oni Press) is really awesome.</p>
+
+        <p>Past credits include: SECRET WARS TOO; THE AVENGERS AND THE INFINITY GAUNTLET (Marvel);
+        PLANTS VS. ZOMBIES, DARK HORSE PRESENTS (Dark Horse); THE SIXTH GUN: SONS OF THE GUN (Oni),
+        THE ANCHOR (Boom!), WE KILL MONSTERS (Red5), and The ENGINEER (Archaia)</p>
+
+        <ol>Here is a short list of my favorite things to do in my spare time, listed in order of importance:
+          <p>
+            <li>Sleep</li>
+            <li>Time with Family</li>
+            <li>Time with absolutely nothing to do</li>
+            <li>Movies</li>
+            <li>Music</li>
+          </p>
+        </ol>
+
+      </div>
+    </div>
+  </div>
 </body>
 </html>

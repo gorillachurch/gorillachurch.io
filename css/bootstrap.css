@@ -4960,16 +4960,20 @@ a.badge:focus {
 .nav-pills > li > a > .badge {
   margin-left: 3px;
 }
+div.jumbotron {
+  background-color: #ff9933;
+}
+}
 .jumbotron {
   padding-top: 30px;
   padding-bottom: 30px;
   margin-bottom: 30px;
-  color: inherit;
-  background-color: #eee;
+  color: #ff9933;
+  background-color: #ff9933;
 }
 .jumbotron h1,
 .jumbotron .h1 {
-  color: inherit;
+  color: #eee;
 }
 .jumbotron p {
   margin-bottom: 15px;
@@ -4984,14 +4988,20 @@ a.badge:focus {
   padding-right: 15px;
   padding-left: 15px;
   border-radius: 6px;
+  color: #ff9933;
+}
 }
 .jumbotron .container {
   max-width: 100%;
+  color: #ff9933;
+}
 }
 @media screen and (min-width: 768px) {
   .jumbotron {
     padding-top: 48px;
     padding-bottom: 48px;
+    color: #ff9933;
+  }
   }
   .container .jumbotron,
   .container-fluid .jumbotron {
