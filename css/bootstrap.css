@@ -8,6 +8,7 @@ html {
   font-family: sans-serif;
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
+      background-color: #ffcc66
 }
 body {
   margin: 0;
@@ -240,6 +241,7 @@ th {
   }
   .navbar {
     display: none;
+    color: #ffcc66
   }
   .btn > .caret,
   .dropup > .btn > .caret {
